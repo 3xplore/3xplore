@@ -16,8 +16,12 @@ export const CreateProfile = () => {
                     <h4>Connect Your Wallet</h4>
                     <div className="card">
                         <div className="connect-wallet">
-                            <img src={baselogo} alt="Base" />
+                            <a href=""><img src={baselogo} alt="Base" /></a>
                             <button className="btn">Coinbase</button>
+                        </div>
+                        <div className="check-policy">
+                        <input type="checkbox" />
+                        <p>I have read and accepted the <span>Terms of Use</span> & <br /> <span>Privacy Policy</span></p>
                         </div>
                     </div>
                 </div>
