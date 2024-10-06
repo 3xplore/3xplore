@@ -1,0 +1,34 @@
+.pageTxt {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+.pageTxt h1 {    
+    font-family: "Space Mono", monospace;
+    font-weight: 900;
+    margin-top: 8rem;
+    font-size: 50px;
+    line-height: 4rem;
+}
+
+.pageTxt .msg p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.cta {
+    margin-top: 70px;
+}
+
+.cta button {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #4c0156 10%, #A512B7 90%, #7e1fc6 100%);
+}
