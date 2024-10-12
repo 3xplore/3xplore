@@ -40,7 +40,7 @@
     margin-left: -30px;
 }
 
-.connect-wallet-container con-wall {
+.connect-wallet-container con-wall h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +57,31 @@
     background: #1e181e;
     padding: 120px 20px;
     border: 2px solid rgb(107, 6, 107);
+}
+
+.connect-wallet-container .card input {
+    width: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(107, 6, 107);
+    background: #1e181e;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+.connect-wallet-container .card p {
+    color: white;
+    font-size: 18px;
+}
+
+.connect-wallet-container .card p span{
+    color: #a903a6;
+}
+
+.check-policy{
+    margin: 10px 0;
+    display: flex;
+    align-items: left;
 }
 
 .connect-wallet button {
